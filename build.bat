@@ -1,0 +1,1 @@
+gcc main.c -o program.exe -mwindows -Iinclude -Llib -Wall -Wextra -O0 -g -O2 -Wl,--defsym,stat64i32=_stat64 -lraylib -lopengl32 -lgdi32 -lwinmm
