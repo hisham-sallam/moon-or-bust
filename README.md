@@ -13,8 +13,10 @@ An accurate orbital simulation that is made with raylib that lets you land and o
 | Increase throttle | `L-Shift` |
 | Set to max        | `Z`       |
 | Set to 0          | `X`       |
+| Increase warp     | `]`       |
+| Decrease warp     | `[`       |
 
-You can also timewarp, although it's not recommended for longg periods of time, as the orbit eventually deviates due to floating point precision. The integration method is velocity verlet, since it's very simple and fast for me to implement while still maintaining accuracy.
+You can also timewarp, although it's not recommended for long periods of time, as the orbit eventually deviates due to floating point precision. The integration method is velocity verlet, since it's very simple and fast for me to implement while still maintaining accuracy.
 
 To build it, all you have to do is run the batch file. Unfortunately, you can only build it with Mingw for Windows. If you can't build it, a Windows release is available under releases.
 
